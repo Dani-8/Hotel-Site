@@ -349,6 +349,7 @@
     width: 100%;
     /* height: 100px; */
     text-align: center;
+    position: relative;
 
 }
 
@@ -393,7 +394,19 @@
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
-
+.circle-svg{
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    top: 10%;
+    left: 57%;
+    transform: rotate(-10deg);
+    /* background-color: #007bff; */
+}
+.circle-svg path{
+    transform: scale(2);
+    stroke-width: 2;
+}
 
 
 
