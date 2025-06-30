@@ -331,6 +331,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .s-section-container{
@@ -475,7 +476,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(174, 125, 84);
+    background: rgb(201, 143, 96);
     width: 100%;
     height: 100%;
     transform: scaleY(0);
