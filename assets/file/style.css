@@ -325,7 +325,7 @@
     width: 100%;
     /* height: 100vh; */
     position: relative;
-    /* background-color: lightblue; */
+    background-color: lightblue;
     top: 0;
     margin-bottom: 200px;
     display: flex;
@@ -346,12 +346,12 @@
     position: relative;
 }
 .s-section-heading{
-    /* background-color: pink; */
+    background-color: pink;
     width: 100%;
     /* height: 100px; */
     text-align: center;
     position: relative;
-
+    padding: 20px 0;
 }
 
 
@@ -399,7 +399,7 @@
     width: 250px;
     height: 130px;
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 57%;
     transform: rotate(-10deg);
     /* background-color: #007bff; */
@@ -409,10 +409,15 @@
     stroke-width: 2;
 }
 
-
+/* CARD */
+/* CARD */
+/* CARD */
+/* CARD */
+/* CARD */
+/* CARD */
 
 .cards-cont{
-    /* background-color: lightcoral; */
+    background-color: lightcoral;
     width: 80%;
     height: 100%;
     display: flex;
@@ -493,6 +498,141 @@
 
 
 
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+
+
+.about-section{
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    width: 80%;
+}
+.about-section-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+}
+
+
+
+.about-content{
+    background-color: pink;
+    width: 60%;
+    /* height: 100px; */
+    position: relative;
+    text-align: start;
+    padding: 20px 0;
+}
+
+
+
+.about-title span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(174, 125, 84);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 20px;
+}
+.about-title span::before{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -50px;
+    background: url('../img/design.png') no-repeat;
+    width: 80px;
+    height: 20px;
+
+}
+.about-title span::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 280px;
+    background: url('../img/design.png') no-repeat;
+    width: 80px;
+    height: 20px;
+}
+
+
+
+.about-title h1{
+    font-family: 'Margesh', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.about-title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(174, 125, 84);
+    /* background-color: lightblue; */
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+.about-info{
+    background-color: lightgreen;
+    height: 120px;
+    width: 80%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.info-block{
+    width: 50%;
+    height: 100%;
+    /* padding: 20px; */
+    background-color: lightcoral;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+
+.info-icon{
+    background-color: #007bff;
+
+}
+.info-icon svg{
+    width: 130px;
+    height: 100px;
+    fill: rgb(0, 0, 0);
+    stroke-width: 1;
+}
+.info-icon svg path{
+    stroke-width: 10;
+}
+.info-text{
+    background-color: aqua;
+}
 
 
 
@@ -500,17 +640,14 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.about-img{
+    width: 40%;
+    background-color: rgb(182, 173, 230);
+}
+.about-img img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
 
 
