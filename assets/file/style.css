@@ -1527,6 +1527,15 @@
     transition: .3s linear;
 }
 
+.social-links{
+    background-color: grey;
+    height: 150px;
+    width: 40px;
+    position: absolute;
+    bottom: 110px;
+    right: 30px;
+}       
+
 
 
 .member-detail{
