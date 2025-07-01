@@ -811,7 +811,7 @@
     /* justify-content: center; */
     flex-direction: column;
     position: relative;
-    background-color: rgb(149, 49, 66);
+    /* background-color: rgb(149, 49, 66); */
 
 }
 .service-heading{
@@ -872,7 +872,7 @@
 
 
 .services-card-cont{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     /* width: 80%; */
     /* height: 100%; */
     display: flex;
@@ -997,12 +997,13 @@
     /* justify-content: center; */
     flex-direction: column;
     position: relative;
-    background-color: rgb(149, 49, 66);
+    /* background-color: rgb(149, 49, 66); */
+    overflow: hidden;
 
 }
 
 .testimonial-heading{
-    background-color: pink;
+    /* background-color: pink; */
     width: 100%;
     /* height: 100px; */
     text-align: center;
@@ -1024,7 +1025,7 @@
     content: '';
     position: absolute;
     top: 30%;
-    left: 36%;
+    left: 39%;
     background: url('../img/design.png') no-repeat;
     width: 80px;
     height: 20px;
@@ -1034,7 +1035,7 @@
     content: '';
     position: absolute;
     top: 30%;
-    left: 61%;
+    left: 58%;
     background: url('../img/design.png') no-repeat;
     width: 80px;
     height: 20px;
@@ -1057,12 +1058,12 @@
 
 
 .testimonial-card-cont{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 90%;
-    /* height: 100%; */
+    height: 500px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     margin: 50px 0;
@@ -1073,23 +1074,25 @@
 .testimonial-card{
     background-color: white;
     width: 30%;
-    /* height: 200px; */
+    border-radius: 30px;
+    min-height: 180px;
     /* padding: 10px 20px; */
     position: relative;
+    box-shadow: 20px 0px 40px 0px rgba(0, 0, 0, 0.2) inset;
+    /* box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.2); */
 }
-
 
 
 .testi-card-id{
-    /* position: absolute;
-    top: 10px;
-    left: 20px; */
-    background-color: pink;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    color: rgb(174, 125, 84);
+    position: relative;
+    top: -40px;
+    left: -40px;
+    /* background-color: pink; */
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .testi-card-img{
     width: 70px;
@@ -1108,6 +1111,24 @@
     object-fit: cover;
 }
 
+
+
+.testi-rating{
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.testi-rating i{
+    font-size: 15px;
+    color: #FEBA17;
+    margin: 0 2px;
+}
+
+
+
 .testi-card-id h2{
     font-family: 'sageffine', sans-serif;
     font-size: 32px;
@@ -1116,8 +1137,8 @@
     cursor: pointer;
 
     position: absolute;
-    top: 20px;
-    left: 110px;
+    top: 90px;
+    left: 60px;
     border-bottom: 1px solid black;
 }
 
@@ -1125,10 +1146,10 @@
 
 
 .testi-card-text{
-    background-color: rgb(55, 6, 53, 0.3);
+    /* background-color: rgb(55, 6, 53, 0.3); */
     width: 100%;
     /* height: 50%; */
-    margin-top: 20px;
+    margin: 5px 0;
     padding: 10px 20px;
     /* white-space: nowrap; */
     display: flex;
@@ -1140,33 +1161,47 @@
 
 .testi-card-text p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: rgb(174, 125, 84);
-    margin-top: 10px;
-}
-
-.testi-rating{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-.testi-rating i{
     font-size: 15px;
-    color: #FEBA17;
-    margin: 0 2px;
+    color: rgb(174, 125, 84);
+    text-indent: 30px;
 }
 
 
+/* MOVE TESIMONIAL CARDS */
+/* MOVE TESIMONIAL CARDS */
+/* MOVE TESIMONIAL CARDS */
+/* MOVE TESIMONIAL CARDS */
+/* MOVE TESIMONIAL CARDS */
 
+.testimo-card1{
+    position: relataive;
+    top: 10px;
+    left: 30px;
+}
 
+.testimo-card2{
+    position: relataive;
+    top: 130px;
+    right: 0px;
+}
 
+.testimo-card3{
+    position: relataive;
+    top: 30px;
+    right: 70px;
+}
 
+.testimo-card4{
+    position: relataive;
+    top: -40px;
+    right: 230px;
+}
 
-
-
+.testimo-card5{
+    position: relataive;
+    top: 10px;
+    left: 200px;
+}
 
 
 
