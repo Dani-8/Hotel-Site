@@ -11,7 +11,7 @@
 @media (max-width: 1050px) {
     
     body{
-        background-color: rgb(237, 168, 168);
+        /* background-color: rgb(237, 168, 168); */
     }
 
     .text-container::before{
